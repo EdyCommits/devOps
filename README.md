@@ -4,7 +4,7 @@
 
 The app should support submitting  multiple  reviews (by repeatedly running python app.py)
 
-*Note: If you’re having trouble getting argparseto work, feel free to use python’s inbuilt “input” function instead to read values from the command line. *
+*Note: If you’re having trouble getting argparse to work, feel free to use python’s inbuilt “input” function instead to read values from the command line.*
 
 
 
@@ -27,8 +27,8 @@ The app should support submitting  multiple  reviews (by repeatedly running pyth
 ```
 
 
-You should serve this under the route * "/films/list" * on your flask web server.
-Hint: You’ll want to place the html in a named folder and use the send_from_directory method from the flask module.
+You should serve this under the route *"/films/list"* on your flask web server.
+*Hint:* You’ll want to place the html in a named folder and use the send_from_directory method from the flask module.
 
 
 ## Step 3:
@@ -40,7 +40,7 @@ Hint: You’ll want to place the html in a named folder and use the send_from_di
 
 The films should be read from the file generated in Step 1.
 
-Hint: You’ll want to place your template in the /templates folder and use the built-in Flask render_template() method.
+*Hint:* You’ll want to place your template in the /templates folder and use the built-in Flask render_template() method.
 
 ## Step 4:
 ### Add support for filtering this list by star rating

@@ -1,8 +1,9 @@
 from flask import Flask
+from flask import render_template
 
 app = Flask(__name__)
 
-@app.route('/hello')
+@app.route('/films/list')
 
-def hello_world():
-    return 'Hello World'
+def list_of_films():
+    return render_template("index.html")

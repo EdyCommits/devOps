@@ -11,19 +11,25 @@ The app should support submitting  multiple  reviews (by repeatedly running pyth
 ## Step 2:
 ### Install the Flask python library and setup a route that serves the following  static HTML page:
 ```
-<doctype html>
-    <html>
-        <head>
-            <title> All Films</title>
-        </head>
-        <body>
-            <ul>
-                <li>Flubber</li>
-                <li>Jumanji</li>
-                <li>Aladdin</li>
-            </ul>
-        </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>All Films</title>
+</head>
+
+<body>
+    <ul>
+        <li>Flubber</li>
+        <li>Jumanji</li>
+        <li>Aladdin</li>
+    </ul>
+</body>
+
+</html>
 ```
 
 
